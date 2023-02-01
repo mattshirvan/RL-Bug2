@@ -1,6 +1,7 @@
 ```
 # RL bug2 algorithm for pathfinding
 
+Visualize a direct path ST from the start ST to the goal T.
 while the goal T is not achieved, do:
     begin
         while the path ST to the goal is not obstructed, do
