@@ -5,7 +5,7 @@ while the goal T is not achieved, do:
     begin
         while the path ST to the goal is not obstructed, do
             begin
-                update the reward function based on the current state and action taken, 
+                update the value function based on the current state and action taken, 
                 including a penalty for any distance from the line ST
                 select the best action to take based on the transition probabilities of the rewards
                 move towards the goal along the path ST,
